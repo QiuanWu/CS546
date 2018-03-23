@@ -1,0 +1,115 @@
+/*
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+main {
+    margin: 20px auto;
+    width: 800px;
+}
+
+.container {
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+@media screen and (max-width: 800px) {
+    main {
+        margin: 20px 20px;
+        max-width: 800px;
+        width: auto;
+    }
+}
+
+header {
+    font-size: 30px;
+    background-color: #175900;
+    color: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    position: sticky;
+    top: 0;
+}
+
+body {
+    background-color: #eee;
+}
+
+footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    color: #767676;
+    height: 10vh;
+}
+
+h1 {
+    font-size: 150%;
+    text-align: center;
+}
+
+.submission {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.submit {
+    width: 200px;
+    margin: 4px auto;
+    align-self: stretch;
+    border: none;
+    background-color: #175900;
+    color: white;
+    padding: 4px;
+    transition: all 0.5s;
+}
+
+button:focus {
+    outline: none;
+    background-color: #002e00;
+}
+
+#submit {
+    text-align: center;
+}
+
+
+
+
+.failure {
+    color: #EE0000;
+    border-bottom-color: #EE0000;
+}
+
+.failure::after {
+    content: '✗';
+}
+
+.failure:hover::after {
+    content: 'Not a Palindrome';
+}
+
+.success::after {
+    content: '✓';
+}
+
+.success:hover::after {
+    content: 'Is a Palindrome';
+}
+
+.success {
+    color: #0000FF;
+    border-bottom-color: #0000FF;
+}
+*/

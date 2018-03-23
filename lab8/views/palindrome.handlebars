@@ -1,0 +1,16 @@
+<div class='container'>
+    <form name = 'myForm' action='/result' method="POST"  class='submission' id='submission' onsubmit='return checkNull()'>
+        <label for="output">Enter a string</label>
+        <textarea placeholder='Place palindrome here' class='submission' id='texttotest' name='fname'></textarea>
+        <button type="submit">Submit</button>
+    </form>
+    <script>
+        function checkNull() {
+            var text = document.forms['myForm']['fname'].value;
+            if (text == '') {
+                alert("Invalid word!");
+                return false;
+            }
+        }
+    </script>
+</div>
