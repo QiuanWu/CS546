@@ -1,0 +1,16 @@
+{
+  "name": "cs-546-lab-3",
+  "version": "1.0.0",
+  "description": "The package for lab3",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Qiuan Wu",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "prompt": "^1.0.0"
+  }
+}
