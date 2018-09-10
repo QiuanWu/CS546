@@ -1,0 +1,23 @@
+{
+  "name": "lab6",
+  "version": "1.0.0",
+  "description": "Package for lab6",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/QiuanWu/CS546-Code.git"
+  },
+  "author": "Qiuan Wu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/QiuanWu/CS546-Code/issues"
+  },
+  "homepage": "https://github.com/QiuanWu/CS546-Code#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}

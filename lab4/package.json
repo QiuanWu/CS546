@@ -1,0 +1,17 @@
+{
+  "name": "lab4",
+  "version": "1.0.0",
+  "description": "CS546 Lab4",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Qiuan Wu",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.0.2",
+    "npm": "^6.0.0",
+    "uuid": "^3.2.1"
+  }
+}
